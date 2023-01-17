@@ -4,13 +4,14 @@
     border: 2px solid blue;
     padding: 10px;
     margin:5px;
+    text-align: center;
 }
 
 #firstNum,
 #secondNum{
     text-align: center;
     height: 80px;
-    width: 50px;
+    width: 10px;
     margin-right: 25px;
 }
 
@@ -18,6 +19,7 @@
 #add,#substract,
 #multiply,#divide
 {
+    margin-top: 20px;
     margin-right: 5px;
 
 }
