@@ -1,7 +1,24 @@
 #result{
-    display: flexbox;
     height: 100px;
     width: 100px;
-    border: 1px solid black;
+    border: 2px solid blue;
     padding: 10px;
+    margin:5px;
 }
+
+#firstNum,
+#secondNum{
+    text-align: center;
+    height: 80px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+
+#add,#substract,
+#multiply,#divide
+{
+    margin-right: 5px;
+
+}
+

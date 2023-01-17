@@ -17,6 +17,7 @@ function getInputs() {
 
 //returns an array of parsed floats
 function getParsedNumbers() {
+  validateInputs();
   var nums = getInputs();
   nums[0] = parseFloat(nums[0]);
   nums[1] = parseFloat(nums[1]);

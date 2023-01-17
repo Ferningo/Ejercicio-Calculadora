@@ -20,22 +20,46 @@
       crossorigin="anonymous"
     ></script>
 
-    <label for="fname">Primer numero</label>
-    <input type="text" id="firstNum" name="fname" autocomplete="off" />
-    <br />
-    <br />
+    <div class="container">
+      <div class="row">
+        <input
+          class="col"
+          type="text"
+          id="firstNum"
+          name="fname"
+          autocomplete="off"
+        />
 
-    <label for="fname">Segundo numero</label>
-    <input type="text" id="secondNum" name="fname" autocomplete="off" />
-    <br />
-    <br />
+        <input
+          class="col"
+          type="text"
+          id="secondNum"
+          name="fname"
+          autocomplete="off"
+        />
+      </div>
+    </div>
 
-    <div id="result"></div>
+    <div class="container">
+      <div class="row text-center" id="myContainer">
+        <dir id="result"></dir>
+      </div>
+    </div>
 
-    <button type="button" id="add" onclick="add()">+</button>
-    <button type="button" id="substract" onclick="substract()">-</button>
-    <button type="button" id="multiply" onclick="multiply()">x</button>
-    <button type="button" id="divide" onclick="divide()">/</button>
+    <div class="container">
+      <div class="row">
+        <button type="button" id="add" class="col" onclick="add()">+</button>
+        <button type="button" id="substract" class="col" onclick="substract()">
+          -
+        </button>
+        <button type="button" id="multiply" class="col" onclick="multiply()">
+          x
+        </button>
+        <button type="button" id="divide" class="col" onclick="divide()">
+          /
+        </button>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
