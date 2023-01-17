@@ -23,22 +23,27 @@ function getParsedNumbers() {
   return nums;
 }
 
+function showResult(result) {
+  const resultBox = document.getElementById("result");
+  resultBox.innerHTML = result;
+}
+
 const add = () => {
-  const myResult = getParsedNumbers()[0] + getParsedNumbers()[1];
-  alert(myResult);
+  const myResult = (getParsedNumbers()[0] + getParsedNumbers()[1]).toFixed(2);
+  showResult(myResult);
 };
 
 const substract = () => {
-  const myResult = getParsedNumbers()[0] - getParsedNumbers()[1];
-  alert(myResult);
+  const myResult = (getParsedNumbers()[0] - getParsedNumbers()[1]).toFixed(2);
+  showResult(myResult);
 };
 
 const multiply = () => {
-  const myResult = getParsedNumbers()[0] * getParsedNumbers()[1];
-  alert(myResult);
+  const myResult = (getParsedNumbers()[0] * getParsedNumbers()[1]).toFixed(2);
+  showResult(myResult);
 };
 
 const divide = () => {
-  const myResult = getParsedNumbers()[0] / getParsedNumbers()[1];
-  alert(myResult);
+  const myResult = (getParsedNumbers()[0] / getParsedNumbers()[1]).toFixed(2);
+  showResult(myResult);
 };
