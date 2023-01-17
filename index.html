@@ -9,21 +9,23 @@
   </head>
   <body>
     <label for="fname">Primer numero</label>
-    <input type="text" id="firstNum" name="fname" />
+    <input type="text" id="firstNum" name="fname" autocomplete="off" />
     <br />
     <br />
 
     <label for="fname">Segundo numero</label>
-    <input type="text" id="secondNum" name="fname" />
+    <input type="text" id="secondNum" name="fname" autocomplete="off" />
     <br />
     <br />
 
     <p class="result">Resultado</p>
 
-    <button type="button" id="addition" onclick="add()">Sumar</button>
-    <button type="button">Restar</button>
-    <button type="button">Multiplicar</button>
-    <button type="button">Dividir</button>
+    <button type="button" id="add" onclick="add()">Sumar</button>
+    <button type="button" id="substract" onclick="substract()">Restar</button>
+    <button type="button" id="multiply" onclick="multiply()">
+      Multiplicar
+    </button>
+    <button type="button" id="divide" onclick="divide()">Dividir</button>
 
     <script src="script.js"></script>
   </body>
